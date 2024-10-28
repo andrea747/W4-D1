@@ -199,8 +199,14 @@ footer a {
   color: fuchsia;
 }
 
-@media screen and (max-width: 50px) {
-  .img {
-    width: 50%;
+@media screen and (max-width: 250px) {
+  header div img {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  table {
+    width: 100px;
   }
 }
